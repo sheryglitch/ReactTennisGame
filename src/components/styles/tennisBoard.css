@@ -1,0 +1,32 @@
+.main-cont{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+button{
+    height: 10vh;
+    width: 20vw;
+    font-size: 2vw;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    margin: 2vw;
+}
+button:hover{
+    cursor:pointer;
+}
+#btn-one{
+    background-color: blue;
+}
+#btn-one:hover{
+    background-color: rgb(4, 4, 214);
+}
+#btn-two{
+    background-color: red;
+}
+#btn-two:hover{
+    background-color: rgb(202, 0, 0);
+}
